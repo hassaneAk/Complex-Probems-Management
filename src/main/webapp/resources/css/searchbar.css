@@ -1,0 +1,43 @@
+ .fullwidth{
+	width: 100%;
+}
+
+.search{
+	height: 50px;
+	width: 30%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.search input{
+	padding: 10px;
+	font-size: 15px;
+	border: 1px solid grey;
+	float: left;
+	width: 90%;
+	height: 100%;
+	background: #f1f1f1;
+}
+
+
+.search button[type="submit"] {
+  float: left;
+  width: 10%;
+  height: 100%;
+  padding: 10px;
+  background: #80bfff;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+}
+
+.search button:hover{
+	 background: blue;
+}
+.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}

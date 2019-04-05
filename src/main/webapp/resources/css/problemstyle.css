@@ -1,0 +1,61 @@
+.problem{
+	width: 100%;
+	margin-top: 20px;
+    border: 3px solid #80bfff;
+}
+.problem-content{
+	width:100%;
+}
+
+.problem-header p, .problem-footer p{
+  	margin:0;
+  	font-size: 15px;
+}
+
+.problem-header{
+	background: #80bfff;
+	padding:5px;
+	color:#fff;
+    overflow: auto;
+}
+
+.problem-body{	
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+
+.problem-body-title{
+	border-bottom: 1px solid #80bfff;
+}
+
+.problem-body-title h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 30px;
+	color: #80bfff;
+}
+
+.problem-body-description{
+	margin: 10px;
+	padding-left: 100px;
+}
+
+.problem-body-description p{
+	font-size: 20px;
+}
+
+.problem-footer{
+	padding:3px;
+	color:#fff;
+    overflow: auto;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}

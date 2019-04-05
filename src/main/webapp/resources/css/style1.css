@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	font-weight: 100;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.lightBlue{
+	background: #80bfff;
+}
+
+.greenbody{
+	background: #00c100; 
+}
+
+.greenbody h1, .lightBlue h1{
+	color: white;
+	font-weight: bold;
+}
+
+.title{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	maring: 350px; 
+	text-shadow: 8px 8px 16px #000000;
+}
+
+.subtitle{
+	text-align: center;	
+  	font-size: 30px;
+  	color: black;
+  	font-weight: bold; 
+}
+
+.divReplyTitle{
+  	border-bottom: 2px solid #80bfff;
+}
+
+.divReplyTitle h2{
+	font-size: 25px;
+  	color: black;
+  	font-weight: bold; 
+  	color: #80bfff;
+}
+
+
+.centeredDiv{
+	width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftDiv{
+	width: 80%;
+	padding-left: 30px;
+}
+.rightDiv{
+	float: right;
+	width: 17%;
+	height: 500px;
+	min-height: 50%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.mediumSize{
+	font-size: 20px;
+}
+
+.link{
+	float: right; 
+	height: 30px;
+	margin-right: 50px;
+	margin-top: 20px;
+  	font-size: 30px;
+}
+
+.topleftlink{
+	float: left; 
+	margin-left: 50px;
+  	font-size: 20px;
+}
+
+.link2{	
+	float: right; 
+	margin-right: 50px;
+  	font-size: 20px;
+}
+
+
+/* Errors */
+.errors{
+	color: red; 
+	text-align: center;
+	
+  font-size: 20px;
+}
+
+/* Add Problem */ 
+
+.addtitlesection{
+	border-bottom: 2px solid #80bfff;	
+}
+
+.addtitle{
+	float:left; 
+	font-size: 25px;
+  	font-weight: bold; 
+  	color: #80bfff;
+}
+
+.fa fa-sort-desc{
+	color:#80bfff; font-size:25px; margin:0; padding:0; 
+}
+
+.fa fa-sort-desc:hover{
+	color:blue;
+}
+
+
+.footerContentLeft{
+	color: #80bfff; 
+	padding-left: 10px; 
+	font-size: 12px; 
+	float: left;
+	font-weight: bold;
+}
+.footerContentRight{
+	color: #80bfff; 
+	padding-right: 10px; 
+	font-size: 12px; 
+	cursor: pointer; 
+	float: right;
+}
+
+.center{
+	width: 50%;
+	margin: 0 auto;
+	color: #80bfff;
+	padding-left: 10px; 
+	font-size: 15px; 
+}
+
+
+
+
